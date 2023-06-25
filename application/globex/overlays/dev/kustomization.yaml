@@ -1,0 +1,10 @@
+bases:
+- ../../base
+patches:
+- target:
+    kind: Deployment
+    name: globex-ui
+  patch: |-
+    - op: replace
+      path: /spec/template/spec/containers/0/image
+      value:  "quay.apps.cluster-hfzh2.hfzh2.sandbox1829.opentlc.com/quayadmin/globex-ui:main-82a6361501cd1dcbee06eaeb7588a2fcf83db9e7"
