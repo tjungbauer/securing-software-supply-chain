@@ -7,4 +7,4 @@ patches:
   patch: |-
     - op: replace
       path: /spec/template/spec/containers/0/image
-      value: "quay.apps.cluster-hfzh2.hfzh2.sandbox1829.opentlc.com/quayadmin/globex-ui:app-mod-workshop"
+      value: "quay.io/tjungbau/secure-supply-chain-demo:main-1c6d9af2b91d9678ba1255cd96d42aa20bf7637a"
