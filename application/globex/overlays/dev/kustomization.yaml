@@ -7,4 +7,4 @@ patches:
   patch: |-
     - op: replace
       path: /spec/template/spec/containers/0/image
-      value:                                         "quay.io/tjungbau/secure-supply-chain-demo:main-33da891a059cedc686fa2c4a8466cb45fd1c1f3c"
+      value:                                          "quay.io/tjungbau/secure-supply-chain-demo:main-77e6ac30abd4b4e62424a23c706529826a372715"
